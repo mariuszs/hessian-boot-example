@@ -32,6 +32,12 @@
             <artifactId>hessian</artifactId>
             <version>4.0.38</version>
         </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
     </dependencies>
 
 	<properties>

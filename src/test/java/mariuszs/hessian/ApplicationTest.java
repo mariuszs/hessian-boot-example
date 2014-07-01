@@ -1,5 +1,8 @@
 package mariuszs.hessian;
 
+import static org.assertj.core.api.BDDAssertions.then;
+
+import org.assertj.core.api.BDDAssertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +21,14 @@ public class ApplicationTest {
     private HelloClient helloClient;
 
 	@Test
-	public void contextLoads() {
-        System.out.println(helloClient.sayHello());
+	public void shouldSayHello() {
+
+        //when
+        String message = helloClient.sayHello();
+
+        then(message)
+                .isNotEmpty()
+                .isEqualTo("Hello World");
     }
 
 }
