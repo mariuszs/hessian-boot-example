@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Spring Boot Sample Application with Hessian Support
 
 ## Build and run
