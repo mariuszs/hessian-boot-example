@@ -1,5 +1,6 @@
-Spring Boot Sample Application with Hessian Support
+<<<<<<< HEAD
+# Spring Boot Sample Application with Hessian Support
 
-# Build and run
+## Build and run
 
     mvn clean install spring-boot:run
