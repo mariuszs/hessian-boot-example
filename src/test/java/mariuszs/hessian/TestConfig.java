@@ -11,7 +11,7 @@ public class TestConfig {
     public HessianProxyFactoryBean helloClient() {
         HessianProxyFactoryBean factory = new HessianProxyFactoryBean();
         factory.setServiceUrl("http://localhost:8080/HelloService");
-        factory.setServiceInterface(HelloClient.class);
+        factory.setServiceInterface(HelloService.class);
         return factory;
     }
 }

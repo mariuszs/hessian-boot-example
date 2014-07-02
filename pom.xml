@@ -41,12 +41,12 @@
             <scope>test</scope>
         </dependency>
 
-    </dependencies>
+	</dependencies>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<start-class>mariuszs.hessian.Application</start-class>
-		<java.version>1.7</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<build>

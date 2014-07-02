@@ -17,7 +17,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 public class ApplicationTest {
 
     @Autowired
-    private HelloClient helloClient;
+    private HelloService helloClient;
 
     @Test
     public void shouldSayHello() {
@@ -31,7 +31,7 @@ public class ApplicationTest {
     }
 
     @Test
-    public void shouldReveiveFoo() {
+    public void shouldReceiveFoo() {
 
         //when
         Foo foo = helloClient.foo();
