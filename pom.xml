@@ -28,8 +28,13 @@
             <artifactId>hessian</artifactId>
             <version>4.0.38</version>
         </dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
 
-        <dependency>
+
+		<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -40,6 +45,12 @@
             <version>1.6.1</version>
             <scope>test</scope>
         </dependency>
+		<dependency>
+			<groupId>com.carrotsearch</groupId>
+			<artifactId>junit-benchmarks</artifactId>
+			<version>0.7.2</version>
+			<scope>test</scope>
+		</dependency>
 
 	</dependencies>
 

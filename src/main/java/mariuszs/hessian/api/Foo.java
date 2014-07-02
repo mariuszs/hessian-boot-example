@@ -1,15 +1,20 @@
-package mariuszs.hessian;
+package mariuszs.hessian.api;
 
 import java.io.Serializable;
 
 public class Foo implements Serializable{
 
-    private String name;
-
     private int x;
+    private String name;
+    private Bar bar;
 
-    public Foo(String name) {
+    public Foo() {
+    }
+
+    public Foo(int x, String name, Bar bar) {
+        this.x = x;
         this.name = name;
+        this.bar = bar;
     }
 
     public String getName() {
@@ -26,5 +31,13 @@ public class Foo implements Serializable{
 
     public void setX(int x) {
         this.x = x;
+    }
+
+    public Bar getBar() {
+        return bar;
+    }
+
+    public void setBar(Bar bar) {
+        this.bar = bar;
     }
 }
